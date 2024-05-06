@@ -3,51 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pesquisa de Campo | Futebol</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <h1> Pesquisa de Campo <br> Futebol</h1>
+
     <form>
-        <label>Nome: </label>
-        <input type="text" id="nome" name="nome">
-        <label>Idade:</label>
+        <label class="cadastro" >Nome: </label>
+        <input  type="text" id="nome" name="nome">
+        <label class="cadastro">Idade:</label>
         <input type="number" id="idade" name="idade">
         <br>
-        <label>De Qual cidade você é?</label>
+        <label class="cadastro">De Qual cidade você é?</label>
         <input type="text" id="cidade" name="cidade" value="">
-        <label>Email: </label>
+        <label class="cadastro">Email: </label>
         <input type="text" id="email" name="email"><br>
 
-        <p>Quem você acha que vai ganhar o Brasileirão?</p>
+        <p class=pergunta>Quem você acha que vai ganhar o Brasileirão?</p>
         <input type="radio" id="Flamengo" name="time" value="Flamengo">
-        <label>Flamengo</label>
+        <label class="time">Flamengo</label>
         <br>
         <input type="radio" id="Palmeiras" name="time" value="Palmeiras">
-        <label>Palmeiras</label>
+        <label class="time">Palmeiras</label>
         <br>
         <input type="radio" id="Internacional" name="time" value="Internacional">
-        <label>Internacional</label>
+        <label class="time">Internacional</label>
         <br>
-        <input type="radio" id="Athletico Mineiro" name="time" value="Athletico Mineiro">
-        <label>Athletico Mineiro</label>
+        <input type="radio" id="Atlético Mineiro" name="time" value="Athletico Mineiro">
+        <label class="time">Athletico Mineiro</label>
         <br>
-        <label> Outro</label>
+        <labe class="time" > Outro</label>
         <input type="text" id="outro" name="outro">
 
-        <p>Qual o melhor jogador de futebol da história?</p>
+        <p class="pergunta">Qual o melhor jogador de futebol da história?</p>
         <input type="radio" id="Pelé"name="jogador" value="Pelé">
-        <label>Pelé</label>
+        <label class="jogador">Pelé</label>
         <br>
         <input type="radio" id="Maradona" name="jogador" value="Maradona">
-        <label>Maradona</label>
+        <label class="jogador">Maradona</label>
         <br>
         <input type="radio" id="Lionel Messi" name="jogador" value="Lionel Messi">
-        <label>Lionel Messi</label>
+        <label class="jogador">Lionel Messi</label>
         <br>
         <input type="radio" id="Cristiano Ronaldo" name="jogador" value="Cristiano Ronaldo">
-        <label>Cristiano Ronaldos</label>
+        <label class="jogador" >Cristiano Ronaldo</label>
         <br>
-        <label> Outro</label>
+        <label class="jogador"> Outro</label>
         <input type="text" id="outro" name="outro">
+
+        <input id="enviar" type=" submit" value="Enviar">
 
     </form>
     
