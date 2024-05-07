@@ -17,7 +17,7 @@
                 </section>
             </div>
         </header>
-        <form id="form">
+        <form id="form" action="mailto:arthurpansera0308@gmail.com" method="POST" enctype="text/plain">
             <div class="cadastro">
                 <label class="informacao">Nome: </label>
                 <input class="inserir" type="text" id="nome" name="nome" required><br>
@@ -47,8 +47,8 @@
                     <input type="radio" id="Atlético Mineiro" name="time" value="Athletico Mineiro">
                     <label>Atlético Mineiro</label>
                     <br>
-                    <labe> Outro</label>
-                    <input class="inserir" type="text" id="outro" name="outro">
+                    <labe>Outro:</label>
+                    <input class="inserir" type="text" id="outro" name="outro" required>
                 </div>
             </div>
             <div class="pergunta">
@@ -66,14 +66,11 @@
                     <input type="radio" id="Cristiano Ronaldo" name="jogador" value="Cristiano Ronaldo">
                     <label>Cristiano Ronaldo</label>
                     <br>
-                    <label> Outro</label>
-                    <input class="inserir" type="text" id="outro" name="outro">
+                    <label>Outro:</label>
+                    <input class="inserir" type="text" id="outro" name="outro" required>
                 </div>
             </div>
             <button type="submit">Enviar</button>
-
-            <input type="hidden" name="accessKey" value="6b7ce2ed-72cf-4202-b940-bbe8de807be6">
-            <input type="hidden" name="redirectTo" value="obrigado.html">
         </form>
     </div>
 </body>
