@@ -1,5 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .cadastro{
     font-size: 18px;
+    justify-content: space-between;
+    color:black;
+    font-family: "Open Sans", sans-serif;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    background-color: rgb(193, 190, 190);
+    font-family: "Open Sans", sans-serif;
+    margin: 3%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#corpo{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+section,
+footer{
+    padding: 150px 0;
+}
+
+header .container{
+    background-image: linear-gradient(150.24deg, rgba(124, 124, 124, 0.558) 10%, rgba(37, 37, 37, 0.541) 95%), url('banner.jpg');
+    background-size: cover;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    margin: 100px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 70px;
+    color: white;
+}
+
+.cadastro{
+    padding-top: 40px;
+    font-size: 18px;
     color:black
-    
+}
+
+.informacao{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.inserir{
+    border-radius: 3px;
+    border: solid, 1px;
+    border-color: darkslategray;
+    background-color: rgba(243, 239, 239, 0.312);
+    width: 300px;
+}
+
+.pergunta{
+    padding-left: 100px;
+    align-items: center;
+    color:black
+}
+
+.question{
+    margin: 10px;
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+    color:black
+}
+
+.respostas{
+    padding-bottom: 5px;
+    padding-left: 100px;
+    font-size: 18px;
+    color:black
+}
+
+#enviar{
+    padding-left: 200px;
+    padding-bottom: 70px;
+    padding-top: 20px;
 }
