@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: rgb(193, 190, 190);
+    background-color:rgb(249, 249, 236);
     font-family: "Open Sans", sans-serif;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -26,7 +26,11 @@ body{
 
 #corpo{
     background-color: rgb(255, 255, 255);
-    margin-bottom: 0px;
+    border-radius: 20px;
+    margin:160px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    box-shadow: 1px 1px 12px 12px rgba(173, 173, 173, 0.397)
 }
 
 section,
@@ -34,9 +38,13 @@ footer{
     padding: 150px 0;
 }
 
+
 header .container{
     background-image: linear-gradient(150.24deg, rgba(124, 124, 124, 0.558) 10%, rgba(37, 37, 37, 0.541) 95%), url('imagens/estadio.jpg');
     background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 450px;
 }
 
 header{
@@ -48,72 +56,92 @@ header{
 .banner{
     display: flex;
     justify-content: center;
-    background-size: cover;
+    background-size:auto
 }
 
 .banner .banner-text{
     margin: 100px;
     text-align: center;
-    padding: 0 90px;
+    padding: 0 px;
 }
 
 .banner .banner-text h1{
-    font-size: 70px;
+    font-size: 55px;
     color: white;
 }
 
+
 .cadastro{
     padding-top: 40px;
+    padding-left:175px;
+    padding-bottom: 20px;
     font-size: 18px;
     color:black
 }
 
 .informacao{
-    padding-left: 30px;
+    padding-left: 5px;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .inserir{
-    border-radius: 3px;
-    border: solid, 1px;
-    border-color: darkslategray;
+    border-radius: 5px;
+    border: .5px solid;
+    border-color: rgb(138, 141, 141);
     background-color: rgba(243, 239, 239, 0.312);
-    width: 300px;
+    margin-top: 10px;
+    width: 600px;
+    height: 40px;
+}
+
+#placeholder-text{
+    padding-left: 7px;
+}
+
+
+.question-box{
+    padding-left: 275px;
+    color:black
+    
+    
 }
 
 .pergunta{
-    padding-left: 30px;
-    align-items: center;
-    color:black
-}
-
-.question{
     margin: 10px;
-    padding-left: 100px;
+    padding-bottom: 10px;
     padding-top: 30px;
-    font-size: 20px;
+    font-size: 22px;
     color:black
 }
 
 .respostas{
     padding-bottom: 5px;
-    padding-left: 100px;
     font-size: 18px;
     color:black
 }
 
+.alternativas{
+    
+    margin-top:  5px;
+    margin-bottom: 15px;
+}
+
 form button{
+    color: #605f5f;
+    border-color: rgb(138, 141, 141);
     padding: 15px;
     font-size: 16px;
     background: transparent;
     transition: all 1s;
     margin-top: 50px;
-    margin-left: 130px;
+    margin-left: 275px;
     margin-bottom: 60px;
 }
 
 form button:hover{
     background: #f5f5f5;
-    color: #101026;
-    border-radius: 16px;
+    color: #161616;
+    border-radius: 7px;
+    border-color: rgb(106, 107, 107);
 }

@@ -8,6 +8,9 @@
 </head>
 <body>
     <div id="corpo">
+        <style>
+         #box1 { box-shadow: 20px 20px }        
+        </style>
         <header>
             <div class="container">
                 <section class="banner">
@@ -19,53 +22,53 @@
         </header>
         <form id="form" action="mailto:arthurpansera0308@gmail.com" method="POST" enctype="text/plain">
             <div class="cadastro">
-                <label class="informacao">Nome: </label>
-                <input class="inserir" type="text" id="nome" name="nome" required><br>
+                <label class="informacao">Nome: </label><br>
+                <input class="inserir" type="text" id="placeholder-text" placeholder="Insira seu nome" name="nome" required><br>
                 <br>
-                <label class="informacao">Idade:</label>
-                <input class="inserir" type="number" id="idade" name="idade" required><br>
+                <label class="informacao">Idade:</label><br>
+                <input class="inserir" type="number" id="placeholder-text" placeholder="Insira sua idade"  name="idade" required><br>
                 <br>
-                <label class="informacao">De qual cidade você é?</label>
-                <input class="inserir"  type="text" id="cidade" name="cidade" required><br>
+                <label class="informacao">De qual cidade você é?</label><br>
+                <input class="inserir"  type="text" id="placeholder-text" placeholder="Insira sua cidade"  name="cidade" required><br>
                 <br>
-                <label class="informacao">Email: </label>
-                <input class="inserir" type="text" id="email" name="email" required><br>
+                <label class="informacao">Email: </label><br>
+                <input class="inserir" type="text" id="placeholder-text" placeholder="Insira seu e-mail"  name="email" required><br>
             </div>
 
-            <div class= pergunta>
-                <p class="question">Quem você acha que vai ganhar o Brasileirão?</p>
+            <div class= question-box>
+                <p class="pergunta">Quem você acha que vai ganhar o Brasileirão?</p>
                 <div class="respostas">
-                    <input type="radio" id="Flamengo" name="time" value="Flamengo" required>
+                    <input  class="alternativas" type="radio" id="Flamengo" name="time" value="Flamengo" required>
                     <label>Flamengo</label>
                     <br>
-                    <input type="radio" id="Palmeiras" name="time" value="Palmeiras">
+                    <input class="alternativas" type="radio" id="Palmeiras" name="time" value="Palmeiras">
                     <label>Palmeiras</label>
                     <br>
-                    <input type="radio" id="Internacional" name="time" value="Internacional">
+                    <input class="alternativas" type="radio" id="Internacional" name="time" value="Internacional">
                     <label>Internacional</label>
                     <br>
-                    <input type="radio" id="Atlético Mineiro" name="time" value="Athletico Mineiro">
+                    <input class="alternativas"  type="radio" id="Atlético Mineiro" name="time" value="Atlético Mineiro">
                     <label>Atlético Mineiro</label>
                     <br>
-                    <input class="inserir" type="text" id="outro" placeholder="Outro" name="outro">
+                    <input class="inserir" type="text" id="placeholder-text" placeholder="Outro" name="outro">
                 </div>
             </div>
-            <div class="pergunta">
-                <p class="question">Qual o melhor jogador de futebol da história?</p>
+            <div class="question-box">
+                <p class="pergunta">Qual o melhor jogador de futebol da história?</p>
                 <div class="respostas">
-                    <input type="radio" id="Pelé"name="jogador" value="Pelé" required>
+                    <input class="alternativas"  type="radio" id="Pelé"name="jogador" value="Pelé" required>
                     <label>Pelé</label>
                     <br>
-                    <input type="radio" id="Maradona" name="jogador" value="Maradona">
+                    <input class="alternativas"  type="radio" id="Maradona" name="jogador" value="Maradona">
                     <label>Maradona</label>
                     <br>
-                    <input type="radio" id="Lionel Messi" name="jogador" value="Lionel Messi">
+                    <input class="alternativas"  type="radio" id="Lionel Messi" name="jogador" value="Lionel Messi">
                     <label>Lionel Messi</label>
                     <br>
-                    <input type="radio" id="Cristiano Ronaldo" name="jogador" value="Cristiano Ronaldo">
+                    <input class="alternativas"  type="radio" id="Cristiano Ronaldo" name="jogador" value="Cristiano Ronaldo">
                     <label>Cristiano Ronaldo</label>
                     <br>
-                    <input class="inserir" type="text" id="outro" placeholder="Outro" name="outro">
+                    <input class="inserir" type="text" id="placeholder-text" placeholder="Outro" name="outro">
                 </div>
             </div>
             <button type="submit">Enviar</button>
